@@ -59,7 +59,7 @@ export default {
                         password: this.password
                     }
                 })
-            this.$router.push("/admin/dashboard");
+            this.$router.push("/admin");
             } catch (error) {
                 this.error = error.response.data.message[0].messages[0].message
             }
